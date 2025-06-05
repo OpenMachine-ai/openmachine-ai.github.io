@@ -1,10 +1,10 @@
-This repo contains the source code 'index.html' for our website https://openmachine.ai/ 
+This repo contains the source code 'index.html' for our website https://openmachine.ai/
 
 Hosting is done via GitHub Pages (because it's free). And we use namecheap for our domain name:
 - Setup on namecheap:
   - navigate to the `Domain List` and click on `Manage` to the far right of your domain name.
   - Then click on the `Advanced DNS` tab. Click `Add New Record` to add the following five records:
-    
+
      | Type         | Host | Value                    | TTL       |
      |--------------|------|--------------------------|-----------|
      | CNAME Record | www  | openmachine-ai.github.io | Automatic |
@@ -16,7 +16,7 @@ Hosting is done via GitHub Pages (because it's free). And we use namecheap for o
 
 Notes:
 - Quick preview: try one of the following options
-  - https://htmlpreview.github.io/?https://github.com/OpenMachine-ai/openmachine-ai.github.io/blob/main/index.html 
+  - https://htmlpreview.github.io/?https://github.com/OpenMachine-ai/openmachine-ai.github.io/blob/main/index.html
   - https://htmlpreview.github.io/?https://openmachine-ai.github.io
   - https://htmlpreview.github.io/
 - You can see our GitHub pages here: https://openmachine-ai.github.io
