@@ -5,13 +5,13 @@ Hosting is done via GitHub Pages (because it's free). And we use namecheap for o
   - navigate to the `Domain List` and click on `Manage` to the far right of your domain name.
   - Then click on the `Advanced DNS` tab. Click `Add New Record` to add the following five records:
     
-     | Type | Host | Value	TTL |
-     |------|------|-------------|
-     | CNAME Record | www | openmachine-ai.github.io | Automatic |
-     | A Record     | @   | 185.199.108.153          | Automatic |
-     | A Record     | @   | 185.199.109.153          | Automatic |
-     | A Record     | @   | 185.199.110.153          | Automatic |
-     | A Record     | @   | 185.199.111.153          | Automatic |
+     | Type         | Host | Value                    | TTL       |
+     |--------------|------|--------------------------|-----------|
+     | CNAME Record | www  | openmachine-ai.github.io | Automatic |
+     | A Record     | @    | 185.199.108.153          | Automatic |
+     | A Record     | @    | 185.199.109.153          | Automatic |
+     | A Record     | @    | 185.199.110.153          | Automatic |
+     | A Record     | @    | 185.199.111.153          | Automatic |
 
 - For more details see https://dev.to/pauljwil/connect-github-pages-to-your-namecheap-domain-4gjj
 
