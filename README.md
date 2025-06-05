@@ -4,8 +4,10 @@ Latest notes on how we generated the latest `index.html`:
   - Created the website in Mozilla soloist.ai at https://soloist.ai/openmachine
   - Then opened [the website](https://soloist.ai/openmachine) in Chrome browser and saved it via `Menu -> File -> Save Page As .. -> Webpage complete`. This downloads a folder called `OpenMachine_files` and a file `OpenMachine.htm`. Then stored the folder and the file in this github repo.
   - Then copy the file to `index.htm` and replace `soloist.ai/openmachine` by `openmachine.ai` as follows:
-    - `cp OpenMachine.htm index.html`
-    - `sed -i .bak 's:soloist.ai/openmachine:openmachine.ai:g' OpenMachine.htm`
+    ```bash
+    cp OpenMachine.htm index.html
+    sed -i .bak 's:soloist.ai/openmachine:openmachine.ai:g' OpenMachine.htm
+    ```
 
 Hosting is done via GitHub Pages (because it's free). And we use namecheap for our domain name:
 - Setup on namecheap:
