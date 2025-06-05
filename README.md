@@ -12,7 +12,6 @@ Hosting is done via GitHub Pages (because it's free). And we use namecheap for o
      | A Record     | @    | 185.199.109.153          | Automatic |
      | A Record     | @    | 185.199.110.153          | Automatic |
      | A Record     | @    | 185.199.111.153          | Automatic |
-
 - For more details see https://dev.to/pauljwil/connect-github-pages-to-your-namecheap-domain-4gjj
 
 Notes:
