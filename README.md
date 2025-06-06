@@ -10,8 +10,9 @@ This repo contains the source code 'index.html' for our website https://openmach
 
 ### Latest notes on how we generated the latest `index.html`
   - Created the website in Mozilla soloist.ai at https://soloist.ai/openmachine
-  - Then opened [the website](https://soloist.ai/openmachine) in Chrome browser and saved it via `Menu -> File -> Save Page As .. -> Webpage complete`. This downloads a folder called `OpenMachine_files` and a file `OpenMachine.html`. Then stored the folder and the file in this github repo.
-  - Then copy the file to `index.htm` and replace `soloist.ai/openmachine` by `openmachine.ai` as follows:
+  - Unfortunately, the website loads very slowly when hosted on soloist.ai.
+  - To export the website and host on GitHub: Unfortunately, soloist doesn't have an export feature. Therefore, open [the website](https://soloist.ai/openmachine) in Chrome browser and save it via `Menu -> File -> Save Page As .. -> Webpage complete`: This downloads a folder called `OpenMachine_files` and a file `OpenMachine.html`. Then stored the folder and the file in this github repo.
+  - Then copy the file to `index.html` and replace `soloist.ai/openmachine` by `openmachine.ai` as follows:
     ```bash
     cp OpenMachine.html index.html
     sed -i .bak 's:soloist.ai/openmachine:openmachine.ai:g' index.html
