@@ -1,4 +1,4 @@
-This repo contains the source code 'index.html' for our website https://openmachine.ai/
+This repo contains the source code `index.html` for our website https://openmachine.ai/
 
 ### Notes
 - Quick preview: try one of the following options
