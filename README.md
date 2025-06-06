@@ -6,9 +6,7 @@ This repo contains the source code `index.html` for our website https://openmach
   - https://htmlpreview.github.io/?https://openmachine-ai.github.io
   - https://htmlpreview.github.io/
 - You can see our GitHub pages here: https://openmachine-ai.github.io
-- Google search console with details about indexing and search impressions:
-  - Console [here](https://search.google.com/search-console?resource_id=sc-domain%3Aopenmachine.ai&hl=en)
-  - Tracking traffic milestones [here](https://search.google.com/search-console/insights/achievements?resource_id=sc-domain:openmachine.ai)
+- Google search console with details about indexing and search impressions: [[Console]](https://search.google.com/search-console?resource_id=sc-domain%3Aopenmachine.ai&hl=en), [[Milestones]](https://search.google.com/search-console/insights/achievements?resource_id=sc-domain:openmachine.ai)
 
 ### Latest notes on how we generated the latest `index.html`
   - Created the website in Mozilla soloist.ai at https://soloist.ai/openmachine
